@@ -1,3 +1,26 @@
+
+----------------------> ((( Cusom Styles ))) <----------------------
+--------------------------------------------------------------------
+
+1) sx={{ type the inline styles here }}
+2) properties -> marginTop="10px", mt="10px, mb={1} (1 => 8px)
+3) with className -> Normal way
+
+
+* p={1} = p="8px
+* color={primary.light} => MUI handels that in both ( Light / Dark ) modes
+******** I can edit the default styles of the mui comonent --------> 
+----> {{ "&.Mui-checked": {
+            color: "#4B47FF",
+        },
+
+        "& .MuiSvgIcon-root": {
+            borderRadius: 4,
+        } }}
+        
+____________________________________________________________________
+____________________________________________________________________
+
 ----------------------> ((( Typography ))) <----------------------
 ------------------------------------------------------------------
 
@@ -13,6 +36,19 @@ Typography => default (( <p></p> ))
 <Typography nowrap={false}></Typography> => (( Default ))
 
 *** Look at ( Typography API ) for more information. ***
+
+____________________________________________________________________
+____________________________________________________________________
+
+----------------------> ((( Button - IconButton ))) <---------------------------
+-------------------------------------------------------------------
+
+<Button varient="1)text 2)contained 3)outlined" iconend={<icon1 />} iconstart={<icon2 />}></Button>
+{ varient - iconstart - iconend }
+
+<IconButton>
+    <Icon />
+</IconButton>
 
 ____________________________________________________________________
 ____________________________________________________________________
