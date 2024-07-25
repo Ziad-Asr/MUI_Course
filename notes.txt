@@ -1,3 +1,6 @@
+----------------------> ((( Typography ))) <----------------------
+------------------------------------------------------------------
+
 {{{ As a HTML element }}}
 Typography => default (( <p></p> ))
 <Typography component="h1"></Typography> => (( <h1></h1> ))
@@ -8,6 +11,8 @@ Typography => default (( <p></p> ))
 
 <Typography nowrap={true}></Typography> => (( All text on the same line ))
 <Typography nowrap={false}></Typography> => (( Default ))
+
+*** Look at ( Typography API ) for more information. ***
 
 ____________________________________________________________________
 ____________________________________________________________________
