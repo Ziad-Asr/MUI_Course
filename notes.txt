@@ -1,0 +1,13 @@
+{{{ As a HTML element }}}
+Typography => default (( <p></p> ))
+<Typography component="h1"></Typography> => (( <h1></h1> ))
+<Typography component="main"></Typography> => (( <main></main> ))
+
+{{{ As a CSS styles }}}
+<Typography varient="h1"></Typography> => (( Now it has the styles of {h1} ))
+
+<Typography nowrap={true}></Typography> => (( All text on the same line ))
+<Typography nowrap={false}></Typography> => (( Default ))
+
+____________________________________________________________________
+____________________________________________________________________
